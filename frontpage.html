@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web page</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .topnav {
+  background-color:black;
+  overflow: hidden;
+}
+.topnav a.active {
+  color: white;
+}
+.topnav a {
+  float:right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.topnav .login-container button {
+        border-radius:25px;
+        float: right;
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background-color:white;
+        color:black;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body{
+        background-image: url('data:image/jpeg;base64,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');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:bottom bottom;
+      }
+
+     </style>
+   
+</head>
+<body>
+    <br>
+    <div class="topnav">
+        <div class="login-container">
+            <form action="/form/submit" method="POST">
+                <button type="submit"><b>JOIN NOW</b></button>
+            </form>
+            </div>
+        <a class="active" href="#contact">CONTACT</a>
+        <a href="#courses">COURSES</a>
+        <a href="#about">ABOUT</a>
+        <a href="#home">HOME</a>
+        <img src="https://discuss.selfmade.ninja/assets/logo-ttpvouvr.png" alt="image" width="150" height="30"> 
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <center>
+    <h1 style="color:white;font-size:100;font-family: Arial, Helvetica, sans-serif;"><b>World's first</b> &nbsp;<b style="color:orange">Virtual<br>Academy </b><b style="color:white"> with a Virtual<br>Private Network!</b></h1>
+    <h4 style="color:white;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">This portal is still under development,but you can login to do<br>the basic stuffs!Thanks for understanding.</h4>
+    </center>
+    
+        
+
+</body>
+</html>
